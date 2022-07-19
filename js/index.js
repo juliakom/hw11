@@ -32,13 +32,13 @@ let arrey = [[1,2,3],[4,5,6],[7,8,9]];
 let table = document.querySelector('#table');
 
 for (let subArr of arrey) {
-	let tr = document.createElement('tr');
-	
-	for (let elem of subArr) {
-		let td = document.createElement('td');
-		td.innerHTML = elem;
-		tr.appendChild(td);
-	}
-	
-	table.appendChild(tr);
+  let tr = document.createElement('tr');
+  
+  for (let elem of subArr) {
+    let td = document.createElement('td');
+    td.innerHTML = elem;
+    tr.appendChild(td);
+  }
+
+  table.appendChild(tr);
 }
